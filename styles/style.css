@@ -1,43 +1,17 @@
-
-
 body {
-  font-family: "HelveticaNeue-Light", "Helvetica", sans-serif;
-  font-size:16px;      
+ font-size: 16px; 
+color: #2B4E72;
 }
 
-#wrapper {
- width: 100%;
-background: #fff;
+h1, h2, h3, h4 {
     
+ color: #FF6666 ;   
 }
-
-header {
-    
- background: #fff; 
- padding: 20px;
-   
-    float: left;
-}
-
-h1 {
- font-family: "HelveticaNeue-Medium", "Helvetica";    
-  font-size: 28px;
-
-   
-}
-
-h2 {
-    
-    font-size: 21px;
-    font-weight: normal;
-    
-    
-}
- nav li {
+nav li {
 
      display: inline;
  background: #fff;
- padding: 50px;
+     padding: 20px 50px 0px 0px;
 float: right;
 
 }
@@ -45,45 +19,61 @@ float: right;
 nav a {
     
  text-decoration: none;
- color: #aaa;
- font-style: italic;    
+ color: #03B6F2;
+ font-style: italic;  
+ font-size: 16px;
 }
 
-#content {
- clear: both; 
-background: #eee;
-min-height: 500px;
-    
+nav a:hover {
+ text-decoration: none; 
+color:
 }
 
- .two-thirds{
-    margin: 20px;
-    padding: 20px;
-    width: 55%;
-    float: left;
-    min-height: 300px; 
-}
 
- .one-third{
-    margin: 20px;
-    padding: 20px;
-    width: 30%;
-    float: left;
-    min-height: 378px; 
-}
 footer {
- clear: both;
+ margin: -20px;
  padding: 20px;
  text-align: center;
  color: #777;
  background: #444;
- height: 50px;
+ height: 100px;
  font-size: 12px;
 }
 
-section {
- background: #fff;   
+.wrapper1 {
+ background: #ED303C;
+ background-image:  url('http://1080wallpaper.com/wp-content/uploads/2014/02/puppy_wallpapers_full_hd.jpg');
+ background-repeat: no-repeat;
+ background-position: fixed;
+ background-size: cover;
+
+
+ padding: 150px 20px 175px 20px;
+height: 700px;
+}
+
+.wrapper2 {
+ background: #FF9C5B; 
+padding: 150px 0px 175px 0px;
+margin: 0px -15px 0px -15px;
 }
 
 
+.wrapper3 {
+ background: #FAD089; 
+padding: 150px 20px 175px 20px;
+}
 
+
+.content {
+  margin: 20px;
+    padding: 20px;
+    background: #fff;
+}
+
+.content1st {
+    margin: 20px;
+    padding: 20px;
+    background: #fff;
+    float: right;
+}
